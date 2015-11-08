@@ -4,49 +4,73 @@
     <meta charset="UTF-8">
     <title>Запись на мойку | Сеть автомоек Car Wash</title>
     <link rel="icon" href="pic/favicon.ico">
+    <link rel="stylesheet" href="css/menu.css">
+    <link rel="stylesheet" href="css/body.css">
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans&subset=latin,cyrillic' rel='stylesheet' type='text/css'>
 </head>
 
 <body>
-<menu>
-    <li><a href="index.html">Главная</a></li>
-    <li><a href="service.html">Услуги</a></li>
-    <li><a href="price.html">Прайс-лист</a></li>
-    <li><a href="contacts.html">Контакты</a></li>
-    <li><a href="form.html">Запись на мойку</a></li>
-</menu>
+
+<nav class="navother">
+    <ul class="menu">
+        <li><a href="index.html">Главная</a></li>
+        <li><a href="service.html">Услуги</a></li>
+        <li><a href="price.html">Прайс-лист</a></li>
+        <li><a href="contacts.html">Контакты</a></li>
+        <li class="selected"><a href="form.html">Запись на мойку</a></li>
+    </ul>
+</nav>
+<div class="container">
+<div class="textcenter">
 <form method="post">
     <h1>Форма для записи на мойку</h1>
         <div>
-            <label for="fio"><b>ФИО</b></label>
-            <input id="fio" type="text" placeholder="Ваше имя" name="spam[fio]">
+            <p><label for="fio"><b>ФИО</b></label>
+                <input id="fio" type="text" placeholder="Ваше имя" name="spam[fio]">
+            </p>
         </div>
         <div>
             <label><b>Адрес мойки</b></label>
             <label>
-                17-я линия В.О., д.3 <input type="radio" name="spam[adress]" value="0" checked>
+                <p>
+                <input type="radio" name="spam[adress]" value="0" checked> 17-я линия В.О., д.3
+                </p>
             </label>
             <label>
-                ул. Седова, д.15 <input type="radio" name="spam[adress]" value="1">
+                <p>
+                <input type="radio" name="spam[adress]" value="1"> ул. Седова, д.15
+                </p>
             </label>
             <label>
-                ул. Стойкости, д.6 <input type="radio" name="spam[adress]" value="2">
+                <p>
+                <input type="radio" name="spam[adress]" value="2"> ул. Стойкости, д.6
+                </p>
             </label>
         </div>
         <div>
-            <label for="tel"><b>Контактный телефон</b></label>
-            <input id="tel" type="text" placeholder="Ваш телефон" name="spam[tel]">
+            <p>
+                <label for="tel"><b>Контактный телефон</b></label>
+                <input id="tel" type="text" placeholder="Ваш телефон" name="spam[tel]">
+            </p>
+
         </div>
         <div>
-            <label for="cat"><b>Категория автомобиля</b></label>
-            <select name="spam[cat]" id="cat">
-                <option value="1" selected>Легковой</option>
-                <option value="2">Внедорожник</option>
-                <option value="3">Микроавтобус</option>
-            </select>
+            <p>
+                <label for="cat"><b>Категория автомобиля</b></label>
+                <select name="spam[cat]" id="cat">
+                    <option value="1" selected>Легковой</option>
+                    <option value="2">Внедорожник</option>
+                    <option value="3">Микроавтобус</option>
+                </select>
+            </p>
+
         </div>
         <div>
-            <label for="mail"><b>E-mail*</b></label>
-            <input id="mail" type="text" placeholder="Ваш E-mail" name="spam[fio]">
+            <p>
+                <label for="mail"><b>E-mail*</b></label>
+                <input id="mail" type="text" placeholder="Ваш E-mail" name="spam[fio]">
+            </p>
+
         </div>
         <div>
             <fieldset>
@@ -69,12 +93,16 @@
             <p>*Если вы хотите подписаться на нашу рассылку</p>
         </div>
         <div>
-            <label for="comment"><b>Дополнительная информация</b></label>
-            <textarea name="spam[comment]" id="comment"></textarea>
+            <p>
+                <label for="comment"><b>Дополнительная информация</b></label>
+                <textarea name="spam[comment]" id="comment"></textarea>
+            </p>
         </div>
         <div>
             <input type="submit" value="Send">
         </div>
 </form>
+</div>
+</div>
 </body>
 </html>

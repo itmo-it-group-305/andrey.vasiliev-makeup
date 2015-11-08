@@ -1,0 +1,43 @@
+.navother {
+    background-color: #016588;
+    margin: -8px 0 5px -20px;
+    list-style-type: none;
+    padding: 5px 0;
+    text-align: center;
+    width: 1932px;
+    position: relative;
+}
+
+.navindex {
+    background-color: #016588;
+    margin: -8px 0 5px -20px;
+    list-style-type: none;
+    padding: 5px 0;
+    text-align: center;
+    width: 1932px;
+    position: relative;
+}
+.menu > li {
+    display: inline;
+    padding: 5px 20px;
+}
+
+.menu > li > a {
+    text-decoration: none;
+    font-size: 1.4em;
+    color: #FFF;
+}
+
+.menu > li > a:hover {
+    color: #999999;
+}
+
+.pic_head {
+    position: absolute;
+    left: 0;
+    top: 0;
+    }
+
+.selected {
+    background-color: ;
+}

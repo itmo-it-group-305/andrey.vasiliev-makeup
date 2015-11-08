@@ -1,0 +1,29 @@
+.container {
+    max-width: 950px;
+    margin: 0 auto 150px auto;
+    text-align:justify;
+    text-indent:20px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.pad {
+    max-width: 950px;
+    margin: 500px auto 150px auto;
+    text-align:justify;
+    text-indent:20px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+h1 {
+    text-align: center;
+}
+
+.center {
+    width: 800px;
+    margin: 0 auto;
+}
+
+ol.center {
+    width: 400px;
+    margin: 0 auto;
+}
