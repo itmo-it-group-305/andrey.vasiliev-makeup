@@ -25,8 +25,8 @@
 <form method="post">
     <h1>Форма для записи на мойку</h1>
         <div>
-            <p><label for="fio"><b>ФИО</b></label>
-                <input id="fio" type="text" placeholder="Ваше имя" name="spam[fio]">
+            <p><label for="fio" class="label"><b>ФИО</b></label>
+                <input  class="input" id="fio" type="text" placeholder="Ваше имя" name="spam[fio]">
             </p>
         </div>
         <div>
@@ -49,15 +49,14 @@
         </div>
         <div>
             <p>
-                <label for="tel"><b>Контактный телефон</b></label>
-                <input id="tel" type="text" placeholder="Ваш телефон" name="spam[tel]">
+                <label for="tel" class="label"><b>Контактный телефон</b></label>
+                <input  class="input" id="tel" type="text" placeholder="Ваш телефон" name="spam[tel]">
             </p>
-
         </div>
         <div>
             <p>
-                <label for="cat"><b>Категория автомобиля</b></label>
-                <select name="spam[cat]" id="cat">
+                <label for="cat" class="label"><b>Категория автомобиля</b></label>
+                <select name="spam[cat]" id="cat" class="input">
                     <option value="1" selected>Легковой</option>
                     <option value="2">Внедорожник</option>
                     <option value="3">Микроавтобус</option>
@@ -67,8 +66,8 @@
         </div>
         <div>
             <p>
-                <label for="mail"><b>E-mail*</b></label>
-                <input id="mail" type="text" placeholder="Ваш E-mail" name="spam[fio]">
+                <label for="mail" class="label"><b>E-mail*</b></label>
+                <input  class="input" id="mail" type="text" placeholder="Ваш E-mail" name="spam[fio]">
             </p>
 
         </div>
@@ -76,13 +75,13 @@
             <fieldset>
                 <legend>Выберите категории рассылок</legend>
                 <ul>
-                    <li>
+                    <li class="markers">
                         <label>
                             <input type="checkbox" name="spam[sections][]" value="1" checked>
                             Новости
                         </label>
                     </li>
-                    <li>
+                    <li class="markers">
                         <label>
                             <input type="checkbox" name="spam[sections][]" value="2" checked>
                             Специальные предложения
@@ -94,12 +93,12 @@
         </div>
         <div>
             <p>
-                <label for="comment"><b>Дополнительная информация</b></label>
-                <textarea name="spam[comment]" id="comment"></textarea>
+                <label for="comment" class="label"><b>Дополнительная информация</b></label>
+                <textarea name="spam[comment]" id="comment" ></textarea>
             </p>
         </div>
         <div>
-            <input type="submit" value="Send">
+            <input type="submit" value="Send"  class="input" >
         </div>
 </form>
 </div>

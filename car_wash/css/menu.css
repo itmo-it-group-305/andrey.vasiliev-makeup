@@ -1,11 +1,12 @@
 .navother {
     background-color: #016588;
-    margin: -8px 0 5px -20px;
+    margin: 0 auto;
     list-style-type: none;
     padding: 5px 0;
     text-align: center;
-    width: 1932px;
+    width: 100%;
     position: relative;
+    z-index: 20;
 }
 
 .navindex {
@@ -16,6 +17,7 @@
     text-align: center;
     width: 1932px;
     position: relative;
+    z-index: 20;
 }
 .menu > li {
     display: inline;
@@ -26,6 +28,7 @@
     text-decoration: none;
     font-size: 1.4em;
     color: #FFF;
+    font-family: 'Open Sans', sans-serif;
 }
 
 .menu > li > a:hover {
