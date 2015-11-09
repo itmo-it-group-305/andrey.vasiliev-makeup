@@ -67,3 +67,9 @@ label.label b {
 html {
     overflow-x: hidden;
 }
+
+.pic_head {
+    position: absolute;
+    left: 0;
+    top: 0;
+}
