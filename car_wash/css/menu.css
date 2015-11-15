@@ -1,41 +1,80 @@
+
 .navother {
     background-color: #016588;
-    margin: 0 auto;
-    list-style-type: none;
     padding: 5px 0;
     text-align: center;
+    position: relative;
+    z-index: 20;
+}
+
+.menu {
+
+    display: table;
     width: 100%;
-    position: relative;
-    z-index: 20;
 }
 
-.navindex {
-    background-color: #016588;
-    margin: -8px 0 5px -20px;
-    list-style-type: none;
-    padding: 5px 0;
-    text-align: center;
-    width: 1932px;
-    position: relative;
-    z-index: 20;
+.menu ul {/**/
+    display: none;
+    position: absolute;
+    margin-left: 2.5em;
 }
+.menu ul ul {/**/
+    display: none;
+    position: absolute;
+    left: 100%;
+    bottom: 20%;
+}
+
 .menu > li {
-    display: inline;
-    padding: 5px 20px;
+    display: table-cell;
+    vertical-align: middle;
+    padding: 5px 20px;/**/
 }
 
-.menu > li > a {
-    text-decoration: none;
-    font-size: 1.4em;
+.menu li li  {/**/
+    display: block;
+    text-align: left;
+    vertical-align: middle;
+    padding: 0.3em 1em;
+
+}
+
+.menu li:hover >ul {/**/
+    display: block;
+}
+
+.menu li ul li:hover >ul {/**/
+    display: block;
+}
+
+.top-menu a {/**/
     color: #FFF;
     font-family: 'Open Sans', sans-serif;
+    font-size: 1.4em;
 }
 
 .menu > li > a:hover {
     color: #999999;
 }
 
+.top-menu a:hover {
+    color: #999999;
+}
 
-.selected {
+/*.selected {
     background-color: ;
+}*/
+
+li {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+.sub_menu_style {
+    margin-left: 0px;
+    padding-left: 0px;
+    background-color: #016588;
 }
