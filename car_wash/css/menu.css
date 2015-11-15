@@ -18,12 +18,7 @@
     position: absolute;
     margin-left: 2.5em;
 }
-.menu ul ul {/**/
-    display: none;
-    position: absolute;
-    left: 100%;
-    bottom: 20%;
-}
+
 
 .menu > li {
     display: table-cell;
@@ -40,10 +35,6 @@
 }
 
 .menu li:hover >ul {/**/
-    display: block;
-}
-
-.menu li ul li:hover >ul {/**/
     display: block;
 }
 
