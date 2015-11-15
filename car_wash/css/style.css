@@ -1,11 +1,12 @@
 @import "menu.css";
 
-.pad {
-    max-width: 950px;
-    margin: 450px auto 150px auto;
-    text-align: justify;
-    text-indent: 20px;
-    font-family: 'Open Sans', sans-serif;
+.pic_head {
+    left: 0;
+    top: 0;
+}
+
+body {
+    margin: 0%;
 }
 
 .container {
@@ -67,10 +68,4 @@ label.label b {
 
 html {
     overflow-x: hidden;
-}
-
-.pic_head {
-    position: absolute;
-    left: 0;
-    top: 0;
 }
