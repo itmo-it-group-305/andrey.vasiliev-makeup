@@ -1,8 +1,14 @@
 @import "menu.css";
+@import "grid.css";
 
 .pic_head {
     left: 0;
     top: 0;
+}
+
+.row {
+    margin: 0 auto;
+    max-width: 80%;
 }
 
 body {
