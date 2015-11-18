@@ -1,0 +1,137 @@
+@import "grid.css";
+@font-face {
+    font-family: "novecentowide-demibold-webfont";
+    src: url(../fonts/novecentowide-demibold-webfont.woff);
+}
+@font-face {
+    font-family: "novecentowide-medium-webfont";
+    src: url(../fonts/novecentowide-medium-webfont.woff);
+}
+
+.wrapper {
+    margin: 0 auto;
+}
+
+body {
+    color: #000;
+    background: #e8e8e8;
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+
+header {
+    background-color: #fff;
+    height: 60px;
+    margin: 0;
+}
+
+.logo{
+    height: 100%;
+    float: left;
+}
+
+.logo img{
+    width: 90%;
+}
+
+.menu {
+    list-style: none;
+    display: table;
+    background: white;
+    height: 20px;
+    text-align: center;
+    padding-left: 0;
+    margin-top: 15px;
+
+}
+
+.menu li {
+    float: left;
+    display: table-cell;
+    height: 20px;
+    position: relative;
+    vertical-align: middle;
+    width: 16.5%;
+}
+
+.menu li::after {
+    content: '/';
+    font-size: 0.6em;
+    padding-top: 7px;
+    float: right;
+}
+
+.menu a {
+    text-decoration: none;
+    font-family: 'Prosto One', cursive;
+    font-weight: bold;
+    text-align: center;
+    color: black;
+    text-transform: uppercase;
+    font-size: 0.6em;
+    letter-spacing: 1px;
+}
+
+.header {
+    background-color: white;
+    margin-top: 5px;
+}
+
+.header h1 {
+    font-size: 1.9em;
+}
+
+.header h6 {
+    font-style: italic;
+    border-bottom: 1px dotted #d4d4d4;
+    padding-bottom: 20px;
+    margin: 0;
+}
+.header img{
+    width: 70%;
+}
+
+.last {
+    font-family: novecentowide-demibold-webfont;
+    font-weight: lighter;
+}
+.center {
+    text-align: center;
+}
+
+.sidebar {
+    width: 400px;
+    background-color: white;
+    margin-top: 5px;
+    margin-left: 40px;
+    font-size: 0.8em;
+    padding: 30px;
+    height: 550px;
+}
+
+.sidebar img{
+    width: 100%;
+}
+
+.sidebar a {
+    color: #47b3ff;
+}
+
+.border {
+    border-top: 1px dotted #cbcbcb;
+}
+
+.em {
+    font-style: italic;
+}
+.icons {
+    float: right;
+}
+.icons ul li {
+    display: inline;
+    padding: 5px;
+}
+
+.icons ul li a {
+    color:#000;
+}
